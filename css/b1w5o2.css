@@ -1,0 +1,122 @@
+/*85x92*/
+.bg-img{
+    /*De gebruikte achtergrond*/
+    background-image: url(../images/header_bg.jpg);
+    min-width: 1349px;
+    min-height: 667px;
+    
+
+    /*Image centreren en scalen*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Nodig om de navbar te positioneren*/
+    position: relative;
+}
+
+/*de navbar container in de image positioneren*/
+.container{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+/*De navbar*/
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 320px;
+}
+
+/*Navbar links*/
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color: #ddd.1;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.logo{
+    display: block;
+    margin-left: 450px;
+}
+
+
+
+
+.bg-imghome{
+    /*De gebruikte achtergrond*/
+    background-image: url(../images/header_bg.jpg);
+    min-width: 1349px;
+    min-height: 667px;
+    
+
+    /*Image centreren en scalen*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Nodig om de navbar te positioneren*/
+    position: relative;
+}
+
+/*de navbar container in de image positioneren*/
+.containerhome{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+/*De navbar*/
+.navbarhome{
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+/*Navbar links*/
+.navbarhome a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbarhome a:hover{
+    background-color: #ddd.1;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.logohome{
+    display: block;
+    margin-top: 120px;
+    margin-left: 500px;
+}
+
+section{
+    margin-top: 10px;
+    margin-left: 300px;
+    position: center;
+    padding: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    position: center;
+    max-width: 500px;
+    padding: 10px;
+    background: rgba(255,255,255,.6);
+}
